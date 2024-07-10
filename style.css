@@ -1,0 +1,257 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+    
+    }
+
+body {
+min-height: 100vh;
+background-image: url(back.jpg);
+background-size: cover;
+background-position: center;
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    z-index: 100;
+    font-weight: 700;
+    }
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+  
+}
+
+.nav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .3s;
+}
+
+.nav a:hover::before{
+
+    width: 100%;
+}
+
+
+.box1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 300px;
+}
+.left{
+    flex:1.5;
+    margin-top:120px;
+    padding: 100px;
+    font-size: 20px;
+}
+.right{
+    background-image: url(selfie.jpeg);
+    height: 500px;
+    width: 50px;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    flex:1;
+    margin-top: 120px;
+    object-position: 50% 50%;
+    
+}
+
+.box2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 70px;
+    font-size: 20px;
+    margin-bottom: 300px;
+    
+    justify-content: center;
+}
+
+.form{
+padding-top: 100px;
+margin-bottom: 200px;
+text-align: center;
+
+}
+
+input{
+background-color: white;
+width: 50%;
+
+font-size: 20px;
+padding: 16px 16px;
+border-radius: 10px;
+border-color: black;
+margin-bottom: 20px;
+
+}
+textarea{
+    background-color: white;
+    width: 50%;
+    
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 25px;
+    
+
+
+}
+input:focus-within{
+outline: none;
+border-color: blue ;
+border-width:3px;
+ }
+
+textarea:focus-within{
+    outline:  none;
+    border-color: blue;
+    border-width: 3px;
+
+}
+button {
+background-color: rgb(56, 102, 187);
+border-radius: 20px;
+border-color: black;
+font-size: 22px;
+padding: 10px 18px;
+text-align: center;
+display: flex;
+margin: auto;
+}
+
+button:hover{
+opacity: 80%;
+cursor: pointer;
+
+
+
+}
+#gamerea{
+    padding-top: 150px;
+}
+.social {
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 700;
+display: flex;
+
+}
+.social a{
+text-decoration: none;
+margin: 10px;
+border-radius: 50%;
+background-color: white;
+padding: 10px;
+}
+.social a img{
+font-size: 2em;
+color: black;
+opacity: 0.9;
+
+}
+.social a:hover{
+background-color: black;
+transition: 0.5s;
+opacity: 0.5;
+
+}
+.x img{
+width: 60px;
+height: 60px;
+background-size: cover;
+}
+footer{
+    margin-bottom: 50px;
+    
+    width: 100%;
+}
+.footernav{
+    margin: 30px;
+  
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+   
+}
+.footernav ul li a{
+    color: white;
+    margin: 25px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footernav ul li a:hover{
+opacity: 1;
+
+}
+.footerBottom{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+
+/* styles.css */
+#scrollTopBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 100px; 
+    right: 90px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #b13447; 
+    color: white; 
+    cursor: pointer; 
+    padding: 20px; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; 
+}
+
+#scrollTopBtn:hover {
+    background-color: #b31414; 
+}
+

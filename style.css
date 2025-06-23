@@ -74,11 +74,12 @@ background-position: center;
     margin-top:120px;
     padding: 100px;
     font-size: 20px;
+    margin-right: 150px
 }
 .right{
     background-image: url(selfie.jpeg);
-    height: 500px;
-    width: 50px;
+    height: 300px;
+    max-width: 300px;
     background-position: bottom;
     background-size: cover;
     border-radius: 50%;
@@ -86,7 +87,7 @@ background-position: center;
     flex:1;
     margin-top: 120px;
     object-position: 50% 50%;
-    
+    margin-right: 150px
 }
 
 .box2 {
@@ -153,6 +154,7 @@ padding: 10px 18px;
 text-align: center;
 display: flex;
 margin: auto;
+box-shadow: 0px 0px 10px 0.1px rgb(131 131 131)
 }
 
 button:hover{
@@ -249,6 +251,7 @@ opacity: 1;
     border-radius: 50%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease; 
+    width: 65px:
 }
 
 #scrollTopBtn:hover {
